@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  body{
+    font-family: "Inter", sans-serif;
+  }
+  .header{
+    background-color: #0CA1BB;
+    padding-top: 32px;
+    padding-bottom: 118px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__text{
+    padding-left: 14px;
+    color: white;
+    font-size: 46px;
+
+  }
+  .hb{
+    height: 100px;
+    width: 100px;
+    font-size: 24px;
+    border-radius: 35px;
+    border: none;
+    cursor:pointer;
+  }
+  .header__buttons{
+    padding-right: 20px;
+  }
+  .main__buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 105px;
+  }
+  .main__button{
+    background-color: #0C23BB;
+    color: white;
+    font-size: 64px;
+    height: 100px;
+    width: 500px;
+    border: none;
+    border-radius: 30px;
+    cursor:pointer;
+  }
+  .main__sells{  
+    background-color: #5CECC3;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 106px;
+    
+  }
+  .main__sells-titl{
+    text-align: center;
+    font-size: 64px;
+    color: #0C23BB;
+  }
+  .main__sells-text{
+    padding-left: 31px;
+    padding-bottom: 38px;
+    color:#0C23BB;
+    font-size: 36px;
+  }
+  .main__main{
+    padding-top: 50px;
+    padding-left: 105px;
+    padding-right: 105px;
+    padding-bottom: 50px;
+  }
+  .services__card {
+    max-width: 500px;
+    border-radius: 50px;
+    background-color: #2BB8BD;
+    padding: 30px;
+    color:#0C23BB ;
+    font-size: 36px;
+  }
+  .services__icon{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+  }
+  .services__row {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 220px;
+  }
+.main__reviews{
+  background-color: #2BB8BD;
+  background-image: url(../img/FON1.svg);
+background-position: center right;
+background-repeat: no-repeat;
+
+  
+}
+.main__reviews-text{
+  font-size: 32px;
+}
+.form{
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.pl{
+  font-size: 32px;
+}
+.form__input{
+  padding-right: 50px;
+  display: flex;
+}
+.input{
+  width: 911px;
+  height: 50px;
+  border: none;
+  border-radius: 100px;
+}
+.button__i{
+  padding: 18px 28px;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  background-color: #0C23BB;
+  cursor:pointer;
+}
+.reviews__reviews{
+  padding-top: 225px;
+  
+}
+
+
+
+.reviews__card {
+  display: flex;
+  align-items: center;
+  gap: 478px;
+  max-width: 1800px;
+  border-radius: 100px;
+  background-color: #ffffff;
+  padding: 30px;
+  color:#000000 ;
+  font-size: 36px;
+  justify-content: space-between;
+}
+.reviews__icon{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+
+}
+.reviews__row {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+.green{
+  padding-top: 30px;
+  background-image: url(../img/FON2.svg);
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+.da{
+  display: flex;
+  
+}
+.net{
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+.da__text{
+  margin: 0 auto;
+  background-color: #0C6CBB;
+  color: white;
+  padding: 31px 29px;
+  border-radius: 100px;
+  font-size: 20px;
+}
+.net__cycl{
+  margin-left:auto ;
+  height: 100px;
+  width: 100px;
+  background-color: #00FF2F;
+  border-radius: 100px;
+}
+.net__text{
+  background-color: #0C6CBB;
+  margin-right: auto;
+  color: white;
+  padding: 21px 14px;
+  border-radius: 100px;
+}
+.complaints{
+  background-color: #2BB8BD;
+  background-image: url(../img/FON3.svg);
+  background-position: center right;
+  background-repeat: no-repeat;
+
+}
+.complaints__text{
+  display: flex;
+  gap: 623px;
+  font-size: 36px;
+}
+
+.com__input{
+  padding-right: 50px;
+  display: flex;
+}
+.com{
+  padding-left: 30px;
+ 
+}
+.button__com{
+  padding: 16px 58px;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  background-color: #0C23BB;
+}
+.input__com{
+  height: 50px;
+  width: 730px;
+  border-radius: 100px;
+  border: none;
+}
+.com__text{
+  padding-top:26px ;
+  display: flex;
+  padding-bottom: 17px;
+}
+.hghg{
+  background-color: #0C6CBB;
+  color: white;
+  padding: 16px 268px;
+  border-radius: 100px;
+}
+.input__com1{
+ 
+  height: 377px;
+  width: 871px;
+  border-radius: 100px;
+  border: none;
+}
+.input__com2{
+ 
+  
+  width: 871px;
+  border-radius: 100px;
+  border: none;
+  background-color: #0C23BB;
+  color: white;
+}
+.lklk{
+  padding: 25px 0px;
+  display: flex;
+}
+.klkl{
+  background-color: #0C6CBB;
+  color: white;
+  padding: 16px 373px;
+  border-radius: 100px;
+}
+.complaint__row{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+.ouou{
+ display: flex;
+ padding-left: 50px;
+ padding-top: 50px; 
+}
+.complaint__card{
+  background-color: white;
+  display: flex;
+  border-radius: 100px;
+
+}
+.complaint__icons{
+  display: flex;
+  padding-bottom:172px ;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.gh{
+  background-color: #0C6CBB;
+  padding: 30px 77px;
+  border-radius: 100px;
+  color: white;
+}
+.gh__text{
+  
+  background-position: center center;
+  background-repeat: no-repeat;
+font-size: 48px;
+
+
+}
+.hg__text{
+ background: url(../img/masseng.svg);
+ height: 360px;
+ width: 985px;
+ padding-left: 160px;
+ padding-right: 160px;
+ padding-top: 59px;
+ padding-bottom: 95px;
+}
+.gh__text{
+color: white;
+  max-width: 568px;
+  
+  text-align: left;
+  padding-bottom: 55px;
+  
+}
+.jojo{
+  padding-left: 604px;
+ 
+
+  padding-right: 50px;
+}
+.kr{
+  display: flex;
+}
+.kra{
+  padding-top: 100px;
+  justify-content: space-between;
+  display: flex;
+  background-color: #3D635D;
+  color: #2BB8BD;
+  background-image: url(../img/FON4.svg);
+  background-position: center right;
+  background-repeat: no-repeat;
+
+}
+.foter__conta{
+  font-size: 33px;
+  padding-bottom: 600px;
+}
+.s{
+  font-size: 33px;
+}
+.d{
+  font-size: 25px;
+}
+.koko{
+  padding-top: 50px;
+  padding-right: 20px;
+}
