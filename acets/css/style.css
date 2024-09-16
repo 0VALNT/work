@@ -418,3 +418,7 @@ color: white;
 .btn__login{
   cursor: pointer ;
 }
+.send{
+  margin-top: 10px;
+  cursor: pointer;
+}

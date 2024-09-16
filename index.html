@@ -9,6 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Смотри и не беги!</title>
 </head>
+<script></script>
 <body>
     <header class="header">
         <div class="header__text">
@@ -109,16 +110,16 @@
             <div class="main__reviews-text">
                 <h2 class="reviews">ОТЗЫВЫ:</h2>
             </div>
-            <form  action="" class="form">
+            <form  action="" class="form" id="form">
                 <div class="plus">
                     <legend class="pl">Понравился ли вам сайт или магазин?</legend>
-                    <input type="radio" id="kraken" name="monster" value="K">
+                    <input type="radio" id="kraken" name="monster" value="+">
                     <label class="pl" for="kraken">+</label><br>
-                    <input  type="radio" id="sasquatch" name="monster" value="S">
+                    <input  type="radio" id="sasquatch" name="monster" value="-">
                     <label class="pl" for="sasquatch">-</label><br>
                 </div>
                 <div class="form__input">
-                    <input type="text" class="input">
+                    <input type="text" class="input" name="inj">
                     <div class="btn__input">
                         <button class="button__i">Отправить</button>
                     </div>
@@ -185,6 +186,7 @@
             <div class="gjgj">
             <input type="file" class="input__com2"  accept="image/jpeg,image/png">
         </div> 
+        <button class="send button__com">Отправить</button>
         </form>
         <div class="complaint">
             <div class="complaint__row">
