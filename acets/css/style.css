@@ -422,3 +422,11 @@ color: white;
   margin-top: 10px;
   cursor: pointer;
 }
+.rasslka{
+  background-color: #2BB8BD;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
