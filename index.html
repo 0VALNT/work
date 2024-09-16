@@ -16,14 +16,24 @@
         </div>
         <div class="header__buttons">
             <button class="hb">qr-код</button>
-            <button class="hb">Вход</button>
+            <button onclick = "window.location.href='#zatemnenie';" class="hb"  >Вход</button>
+            <div id="zatemnenie">
+                <div id="okno">
+                  <form action="" class="login">
+                    <input type="text" placeholder="Логин" class="login__input">
+                    <input type="password" placeholder="Пароль" class="login__input">
+                    <button class="btn__login login__input">Войти</button>
+                  </form><br>
+                  <a href="#" class="close">Закрыть окно</a>
+                </div>
+              </div>
         </div>
     </header>
     <main class="main">
         <div class="main__buttons">
             <button class="main__button">METRO</button>
-            <button class="main__button">СКОРО</button>
-            <button class="main__button">СКОРО</button>
+            <button class="main__button ">СКОРО</button>
+            <button class="main__button none">СКОРО</button>
         </div>
         <div class="main__wrap">
             <div class="main__sells">
@@ -259,6 +269,8 @@ mail@gmail.com
             </ul>
            </div>
         </div>
-    </div></footer>
+    </div>
+    
+</footer>
 </body>
 </html>
