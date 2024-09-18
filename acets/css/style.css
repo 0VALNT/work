@@ -89,6 +89,7 @@
   }
   .services__card:hover {
     transform: scale(1.2); 
+    box-shadow: 10px 10px 40px #00000010;
    }
   .services__icon{
     margin: 0 auto;
@@ -288,13 +289,13 @@ background-repeat: no-repeat;
   padding-bottom: 50px;
 }
 .ouou{
- display: flex;
+ 
  padding-left: 50px;
  padding-top: 50px; 
 }
 .complaint__card{
   background-color: white;
-  display: flex;
+  
   border-radius: 100px;
 
 }
@@ -319,7 +320,8 @@ font-size: 48px;
 
 }
 .hg__text{
- background: url(../img/masseng.svg);
+ background: url(../img/masseng.svg) center center no-repeat;
+ 
  height: 360px;
  width: 985px;
  padding-left: 160px;
@@ -374,6 +376,7 @@ color: white;
 }
 .none{
   cursor:not-allowed;
+  background-color: #7e87c2;
 }
 #zatemnenie {
   background: rgba(102, 102, 102, 0.5);
@@ -457,6 +460,7 @@ color: white;
 }
 .about__li{
   display: flex;
+  margin-top: 20px;
   flex-direction:column ;
   align-items: center;
   border-radius: 10px;
@@ -500,3 +504,121 @@ color: white;
  .complaints__bottom{
   display: flex;
  }
+ @media (max-width: 1752px) {
+  .kr {
+    flex-direction: column;
+  }
+  .jojo{
+    padding-left: 20px;
+    padding-bottom: 60px;
+    padding-right: 50px;
+  }
+  .hg__text{
+    height: 180px;
+    width: 492px;
+    background-size: cover;
+  }
+  .hg__text{
+    font-size: 24PX;
+  }
+}
+@media (max-width: 1248px) {
+  .complaints__bottom{
+    flex-direction: column;
+    padding-left: 20px;
+   }
+   .form__input{
+    flex-direction: column;
+   }
+   .input{
+    width: 50vh;
+   }
+   .input__com1{
+    width: 50vh;
+   }
+   .input__com2{
+    width: 50vh;
+   }
+   .klkl{
+    padding: 16px 73px;
+   }
+   .services__subtitl{
+    font-size: 24px;
+   }
+   .reviews__card{
+    flex-direction: column;
+    gap: 0px;
+   }
+   .hghg{
+    padding: 10px 10px;
+   }
+   .main__button{
+    font-size: 32px;
+   }
+   .about__nav{
+    flex-direction: column;
+    align-items: center;
+    
+   }
+}
+@media (max-width: 610px) {
+  .hg__text{
+    background: fixed;
+    color:black;
+    padding-right: 0;
+    background: none;
+  }
+  .ouou{
+    padding-left: 0;
+  }
+  .complaint__icons{
+    padding-bottom: 0;
+  }
+  .jojo{
+    height: 300px;
+  }
+  .input{
+    width: 20vh;
+   }
+   .input__com1{
+    width: 20vh;
+    height: 10vh;
+   }
+   .input__com2{
+    width: 20vh;
+   }
+}
+@media (max-width: 500px) {
+  .jojo{
+    height: 200px;
+  }
+  .complaint__icon{
+    width: 370px;
+  }
+  .hg__text{
+    padding-right: 150px;
+  }
+  .main__buttons {
+    padding: 0;
+  }
+  .header{
+    flex-direction: column;
+  }
+  .main__main {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .foter__conta{
+    font-size: 24px;
+  }
+  .koko{
+    font-size: 12px;
+  }
+  .s{
+    font-size: 12px;
+  }
+  .services__card:hover {
+    transform: scale(1); 
+   }
+   
+}
