@@ -10,6 +10,7 @@
   
   li {
     list-style: none;
+    
   }
   body{
     font-family: "Inter", sans-serif;
@@ -82,9 +83,13 @@
     border-radius: 50px;
     background-color: #2BB8BD;
     padding: 30px;
+    transition: 1s;
     color:#0C23BB ;
     font-size: 36px;
   }
+  .services__card:hover {
+    transform: scale(1.2); 
+   }
   .services__icon{
     margin: 0 auto;
     display: flex;
@@ -255,6 +260,7 @@ background-repeat: no-repeat;
   border-radius: 100px;
   border: none;
 }
+
 .input__com2{
  
   
@@ -338,15 +344,18 @@ color: white;
 .kr{
   display: flex;
 }
-.kra{
-  padding-top: 100px;
-  justify-content: space-between;
-  display: flex;
+.footer{
   background-color: #3D635D;
   color: #2BB8BD;
   background-image: url(../img/FON4.svg);
   background-position: center right;
   background-repeat: no-repeat;
+}
+.kra{
+  padding-top: 100px;
+  justify-content: space-between;
+  display: flex;
+  
 
 }
 .foter__conta{
@@ -374,8 +383,11 @@ color: white;
   top: 0;
   left: 0;
   display: none;
+  position: fixed;
 }
 #okno {
+  position: fixed;
+
   width: 400px;
   height: 300px;
   text-align: center;
@@ -430,3 +442,61 @@ color: white;
   align-items: center;
   
 }
+.about{
+  padding-top: 30px;
+}
+.about__titl{
+  font-size: 64px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.about__nav{
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 100px;
+}
+.about__li{
+  display: flex;
+  flex-direction:column ;
+  align-items: center;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 10px 10px 40px #00000010;
+  
+}
+
+.about__li-warp{
+  text-align: left;
+}
+.about__li-titl{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 290px;
+  
+  font-size: 36px;
+}
+.about__li-text{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  max-width: 290px;
+  padding-bottom: 10px;
+}
+.about__li:hover {
+  transform: scale(1.2); 
+ }
+ .footer__ruls{
+  padding-bottom: 20px;
+  padding-left: 30px;
+ }
+ .complaints__rules-titl{
+  font-size: 32px;
+ }
+ .complaints__rules-text{
+  padding-top: 100px;
+  font-size: 32px;
+ }
+ .complaints__bottom{
+  display: flex;
+ }
