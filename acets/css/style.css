@@ -504,7 +504,7 @@ color: white;
  .complaints__bottom{
   display: flex;
  }
- @media (max-width: 1752px) {
+@media (max-width: 1752px) {
   .kr {
     flex-direction: column;
   }
@@ -620,5 +620,10 @@ color: white;
   .services__card:hover {
     transform: scale(1); 
    }
-   
+   .header__buttons{
+    padding-right: 0px;
+  }
+  #okno{
+    width: 200px;
+  }
 }
